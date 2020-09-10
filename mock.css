@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#top-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 7%;
+}
+
+#top-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 12%;
+}
+
+#center {
+    
+    justify-items: center;
+}
