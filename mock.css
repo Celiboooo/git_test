@@ -23,6 +23,46 @@ body {
 }
 
 #center {
-    
-    justify-items: center;
+    position: relative;
+    top: 10em;
+}
+
+#textarea {
+    height: 3.4em;
+    width: 30%;
+    border-radius: 2em;
+    border: silver 1px solid;
+    margin: 1em;
+}
+#footer {
+    background-color: #eee;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    top: 550px;
+    padding-top: 0.4em;
+    padding-right: 0.5em;
+    padding-bottom: 4.5em;
+    padding-left: 0;
+}
+
+#bot-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 21%;
+}
+
+#bot-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 14%;
+}
+
+.words {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
